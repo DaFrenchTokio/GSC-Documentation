@@ -1,8 +1,6 @@
 # GSC - HUD Elements
 
-In this ReadMe, you can learn HUD Elements in GSC.
-
-## Items and Shaders(Pics)
+In this ReadMe, you can learn Items and Shaders[Pics] Elements in GSC.
 
 ### createIcon
 
