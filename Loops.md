@@ -47,3 +47,46 @@ while ( true )
     // Instructions to be executed in a loop
 }
 ```
+
+# Examples
+
+You can learn all examples of each type of loop.
+
+## Example for-loop
+
+```gsc
+for (int i = 0; i < 5; i++) {
+    iprintln("Step " + std::to_string(i + 1) + " completed");
+}
+```
+
+it will print steps 0 to 4
+
+## Example foreach-loop
+
+```gsc
+foreach ( player in level.players )
+{
+    iprintln( player.score )
+}
+```
+
+it will print for each player their score.
+
+## Examples infinite loop
+
+```gsc
+for(;;)
+{
+    iprintln("GSC On Top")
+}
+```
+
+```gsc
+while ( true )
+{
+    iprintln("GSC On Top")
+}
+```
+
+it's going to infinite print "GSC On Top"
