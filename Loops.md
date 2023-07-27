@@ -90,7 +90,7 @@ it will print 1 to 5
 ```gsc
 foreach ( player in level.players )
 {
-    iprintln( player.score )
+    iprintln( player.score );
 }
 ```
 
@@ -101,14 +101,14 @@ it will print for each player their score.
 ```gsc
 for(;;)
 {
-    iprintln("GSC On Top")
+    iprintln("GSC On Top");
 }
 ```
 
 ```gsc
 while ( true )
 {
-    iprintln("GSC On Top")
+    iprintln("GSC On Top");
 }
 ```
 
