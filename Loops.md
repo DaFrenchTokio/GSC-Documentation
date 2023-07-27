@@ -14,6 +14,17 @@ for (initialization; condition; increment)
     // Code to execute at each iteration
 }
 ```
+
+### or
+
+```gsc
+initialization = 0;
+while ( initialization < condition )
+{
+    // Code to execute at each iteration
+}
+```
+
 - initialization : This is the expression that initializes the control variable.
 - condition : This is the expression that specifies the condition to continue the loop.
 - increment : This is the expression that increments or decrements the control variable on each iteration.
@@ -52,15 +63,24 @@ while ( true )
 
 You can learn all examples of each type of loop.
 
-## Example for-loop
+## Examples for-loop
 
 ```gsc
 for (int i = 0; i < 5; i++) {
-    iprintln("Step " + std::to_string(i + 1) + " completed");
+    iprintln(i + 1);
 }
 ```
 
-it will print steps 0 to 4
+```gsc
+i = 0;
+while ( i < 5 )
+{
+    iprintln(i+1);
+    i++;
+}
+```
+
+it will print 1 to 5
 
 ## Example foreach-loop
 
@@ -89,4 +109,4 @@ while ( true )
 }
 ```
 
-it's going to infinite print "GSC On Top"
+It will print "GSC On Top" forever
