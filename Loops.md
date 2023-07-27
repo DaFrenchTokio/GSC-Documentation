@@ -4,7 +4,10 @@ In this ReadMe, you can learn how to make loops in GSC.
 
 ## My Source
 
-[Click Here](https://plutonium.pw/fr/docs/modding/loading-mods/)
+You can look at my source for more information and if my documentation is incorrect.
+
+[Click Here](https://plutonium.pw/fr/docs/modding/gsc/how-to-gsc/)
+
 
 ## How to create an for-loop?
 
@@ -110,3 +113,4 @@ while ( true )
 ```
 
 It will print "GSC On Top" forever
+
